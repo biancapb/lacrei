@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.a240c550.css",
-    "main.js": "./static/js/main.3dfdec47.js",
-    "index.html": "./index.html",
-    "main.a240c550.css.map": "./static/css/main.a240c550.css.map",
-    "main.3dfdec47.js.map": "./static/js/main.3dfdec47.js.map"
+    "main.css": "/lacrei/static/css/main.a240c550.css",
+    "main.js": "/lacrei/static/js/main.71a01a4f.js",
+    "index.html": "/lacrei/index.html",
+    "main.a240c550.css.map": "/lacrei/static/css/main.a240c550.css.map",
+    "main.71a01a4f.js.map": "/lacrei/static/js/main.71a01a4f.js.map"
   },
   "entrypoints": [
     "static/css/main.a240c550.css",
-    "static/js/main.3dfdec47.js"
+    "static/js/main.71a01a4f.js"
   ]
 }
