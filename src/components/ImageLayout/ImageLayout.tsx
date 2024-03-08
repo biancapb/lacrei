@@ -4,10 +4,12 @@ interface ImageLayoutProps {
   imageType: string;
 }
 
+const publicUrl = process.env.PUBLIC_URL;
+
 const layout = {
-  HOME: "/assets/home-image.svg",
-  USER: "/assets/user-image.svg",
-  PRO: "/assets/pro-image.svg",
+  HOME: `${publicUrl}/assets/home-image.svg`,
+  USER: `${publicUrl}/assets/user-image.svg`,
+  PRO: `${publicUrl}/assets/pro-image.svg`,
 };
 
 const ImageLayout: React.FC<ImageLayoutProps> = ({ imageType }) => {

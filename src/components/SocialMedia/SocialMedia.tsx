@@ -6,10 +6,11 @@ interface SocialMediaProps {
 }
 
 const SocialMedia: React.FC<SocialMediaProps> = ({ redirect, socialType }) => {
+  const publicUrl = process.env.PUBLIC_URL;
   const logo = {
-    FACEBOOK: "/assets/icons/facebook-logo.svg",
-    INSTAGRAM: "/assets/icons/instagram-logo.svg",
-    LINKEDIN: "/assets/icons/linkedin-logo.svg",
+    FACEBOOK: `${publicUrl}/assets/icons/facebook-logo.svg`,
+    INSTAGRAM: `${publicUrl}/assets/icons/instagram-logo.svg`,
+    LINKEDIN: `${publicUrl}/assets/icons/linkedin-logo.svg`,
   };
 
   return (
